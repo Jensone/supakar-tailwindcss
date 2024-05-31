@@ -1,0 +1,30 @@
+.car-original:hover,
+.car-blue:hover,
+.car-yellow:hover,
+.car-green:hover {
+  transition: all 350ms ease-in-out;
+}
+
+.car-original:hover {
+  filter: drop-shadow(0 0 3rem rgba(128, 128, 128, 0.3));
+  transform: scale(0.95);
+  transition: all 350ms ease-in-out;
+}
+
+.car-blue:hover {
+  filter: drop-shadow(0 0 3rem rgba(135, 206, 235, 0.3));
+  transform: scale(0.95);
+  transition: all 350ms ease-in-out;
+}
+
+.car-yellow:hover {
+  filter: drop-shadow(0 0 3rem rgba(255, 255, 0, 0.3));
+  transform: scale(0.95);
+  transition: all 350ms ease-in-out;
+}
+
+.car-green:hover {
+  filter: drop-shadow(0 0 3rem rgba(0, 128, 0, 0.3));
+  transform: scale(0.95);
+  transition: all 350ms ease-in-out;
+}
