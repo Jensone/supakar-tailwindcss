@@ -23,26 +23,27 @@ function App() {
             case 'original':
                 setCar(original);
                 setTitle('Silver Shark');
-                setColor('car-' +colorSelected)
+                setColor('car-' + colorSelected)
                 break;
             case 'blue':
                 setCar(blue);
                 setTitle('Marina Blue');
-                setColor('car-' +colorSelected)
+                setColor('car-' + colorSelected)
                 break;
             case 'yellow':
                 setCar(yellow);
                 setTitle('Sunny Yellow');
-                setColor('car-' +colorSelected)
+                setColor('car-' + colorSelected)
                 break;
             case 'green':
                 setCar(green);
                 setTitle('Grass Green');
-                setColor('car-' +colorSelected)
+                setColor('car-' + colorSelected)
                 break;
             default:
                 setCar(original);
                 setTitle('Silver Shark');
+                setColor('car-original')
                 break;
         }
     };
@@ -57,7 +58,7 @@ function App() {
                     <button onClick={selectColor} data-color="original" className="bg-slate-500 text-white rounded-none">
                         Original
                     </button>
-                    <button onClick={selectColor} data-color="blue" className="bg-blue-500 text-white rounded-none">
+                    <button onClick={selectColor} data-color="blue" className="bg-blue-700 text-white rounded-none">
                         Blue
                     </button>
                     <button onClick={selectColor} data-color="yellow" className="bg-yellow-500 text-white rounded-none">
